@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <!-- CSS Style  -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="card">
+    <div class="card-images">
+      <div class="inner-img">
+        <div class="illustration">
+          <img class="desktop-img" src="images/illustration-woman-online-desktop.svg" alt="illustration-woman">
+          <img class="mobile-img" src="images/illustration-woman-online-mobile.svg" alt="illustration-woman">
+        </div>
+
+        <div class="card-img-bg">
+          <img class="desktop-bg" src="images/bg-pattern-desktop.svg" alt="Pattern design">
+          <img class="mobile-bg" src="images/bg-pattern-mobile.svg" alt="Pattern design">
+        </div>
+      </div>
+      
+      <div class="outer-img">
+        <img class="box-img" src="images/illustration-box-desktop.svg" alt="Box">
+      </div>
+   </div>
+      
+
+    <div class="description"> 
+      <h1>FAQ</h1>
+
+      <div class="accordian">
+        <details>
+          <summary>
+            How many team members can I invite?
+            <img src="images/icon-arrow-down.svg" alt="Arrow down">
+          </summary>
+          You can invite up to 2 additional users on the Free plan. There is no limit on 
+          team members for the Premium plan.
+        </details>
+        <hr>
+  
+        <details open class="open">
+          <summary class="open-summary">
+            What is the maximum file upload size?
+            <img class="open-img" src="images/icon-arrow-down.svg" alt="Arrow down">
+          </summary>
+          No more than 2GB. All files in your account must fit your allotted storage space.
+        </details>
+        <hr>
+  
+        <details>
+          <summary>
+            How do I reset my password?
+            <img src="images/icon-arrow-down.svg" alt="Arrow down">
+          </summary>
+          Click “Forgot password” from the login page or “Change password” from your profile page.
+          A reset link will be emailed to you.
+        </details>
+        <hr>
+  
+        <details>
+          <summary>
+            Can I cancel my subscription?
+            <img src="images/icon-arrow-down.svg" alt="Arrow down">
+          </summary>
+          Yes! Send us a message and we’ll process your request no questions asked.
+        </details>
+        <hr>
+
+        <details>
+          <summary>
+            Do you provide additional support?
+            <img src="images/icon-arrow-down.svg" alt="Arrow down">
+          </summary>
+          Chat and email support is available 24/7. Phone lines are open during normal business hours.
+        </details>
+        <hr>
+      </div>
+    </div>      
+  </main>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/Ifescohub" target="_blank">Udeh Ifeanyi</a>.
+  </footer>
+
+
+  <!-- Javascript/JQuery  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
