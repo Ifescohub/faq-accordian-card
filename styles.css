@@ -244,11 +244,11 @@ hr{
 @media (max-width: 630px) {    
     /* CARD------------------------- */
     .card{
-        width: 25rem;
+        width: 22rem;
         display: flex;
         flex-direction: column;
         margin: 12rem auto 2rem;
-        padding: 3rem;
+        padding: 2rem 1rem;
         position: relative;
     }
     
@@ -275,7 +275,7 @@ hr{
         width: 18rem;
         position: absolute;
         top: 0;
-        left: 3.5rem;
+        left: 2rem;
     }
     
     /* Iluustration  */
@@ -289,7 +289,7 @@ hr{
         width: 18rem;
         position: absolute;
         top: -8rem;
-        left: 3.5rem;
+        left: 2rem;
     }
     
     /* Box */
