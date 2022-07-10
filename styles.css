@@ -83,6 +83,11 @@ body{
     position: absolute;
     left: -6rem;
     top: 39%;
+    animation: BoxAnimate 3s ;
+        animation-iteration-count: 1000;
+        animation-fill-mode:none;
+        animation-direction:normal;
+    transition: ease-in-out;    
 }
 
 
@@ -156,6 +161,18 @@ hr{
 .attribution a { 
     color: var(--Light-grayish-blue); 
     text-decoration: none;
+}
+
+@keyframes BoxAnimate {
+    0%{
+        top: 39%;
+    }
+    50%{
+        top: 35%;
+    }
+    100%{
+        top: 39%;
+    }
 }
 
 
